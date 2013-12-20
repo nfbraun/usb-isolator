@@ -1,0 +1,229 @@
+# EESchema Netlist Version 1.1 created  Sa 21 Dez 2013 00:18:28 CET
+(
+ ( /5048F8D1 SM0603 C1 100n
+  ( 1 /U_VCC )
+  ( 2 N-000015 )
+ )
+ ( /5048F2C8 SM0603 C2 100n
+  ( 1 N-000014 )
+  ( 2 N-000015 )
+ )
+ ( /50490869 SM0603 C3 100n
+  ( 1 N-000022 )
+  ( 2 N-000023 )
+ )
+ ( /50490D2D SM0805 C4 4u7
+  ( 1 N-000022 )
+  ( 2 /D_VCC_IN )
+ )
+ ( /50490C58 SM0603 C5 100n
+  ( 1 N-000022 )
+  ( 2 /D_VCC_IN )
+ )
+ ( /518AAD4E SM0805 C6 4u7
+  ( 1 N-000015 )
+  ( 2 /U_VCC )
+ )
+ ( /518AAC72 SM0805 C7 ?
+  ( 1 /U_SHLD )
+  ( 2 /U_GND )
+ )
+ ( /52AF9A76 LED-0603 D1 LED
+  ( 1 /U_VCC )
+  ( 2 N-000003 )
+ )
+ ( /5048FA07 SOLDERSW_3 K1 CONN_3
+  ( 1 N-000014 )
+  ( 2 N-000006 )
+  ( 3 N-000015 )
+ )
+ ( /50490803 SOLDERSW_3 K2 CONN_3
+  ( 1 N-000023 )
+  ( 2 N-000009 )
+  ( 3 N-000001 )
+ )
+ ( /50490906 SOLDERSW_2 P2 CONN_2
+  ( 1 N-000023 )
+  ( 2 N-000008 )
+ )
+ ( /5048F02A FLATCONN_4 P3 CONN_4
+  ( 1 /D_VCC_IN )
+  ( 2 /D_D- )
+  ( 3 /D_D+ )
+  ( 4 /D_GND )
+ )
+ ( /50492EAD USB-M2XFXX P4 CONN_9
+  ( 1 /U_VCC )
+  ( 2 /U_D- )
+  ( 3 /U_D+ )
+  ( 4 ? )
+  ( 5 /U_GND )
+  ( 6 /U_SHLD )
+  ( 7 /U_SHLD )
+  ( 8 /U_SHLD )
+  ( 9 /U_SHLD )
+ )
+ ( /5048F1D2 SM1206 R1 24
+  ( 1 N-000005 )
+  ( 2 /U_D- )
+ )
+ ( /5048F286 SM1206 R2 24
+  ( 1 N-000007 )
+  ( 2 /U_D+ )
+ )
+ ( /504908DB SM1206 R3 24
+  ( 1 /D_D- )
+  ( 2 N-000013 )
+ )
+ ( /504908E1 SM1206 R4 24
+  ( 1 /D_D+ )
+  ( 2 N-000011 )
+ )
+ ( /50492D1D SM1206 R5 0
+  ( 1 N-000015 )
+  ( 2 /U_GND )
+ )
+ ( /50492E5D SM0805 R6 0
+  ( 1 N-000001 )
+  ( 2 N-000022 )
+ )
+ ( /50492D7C SM1206 R7 0
+  ( 1 N-000022 )
+  ( 2 /D_GND )
+ )
+ ( /518AAC6B SM0805 R8 ?
+  ( 1 /U_SHLD )
+  ( 2 /U_GND )
+ )
+ ( /52AF9A6E SM0805 R9 R
+  ( 1 N-000003 )
+  ( 2 N-000015 )
+ )
+ ( /5048EFEF ADuM4160 U1 ADUM4160
+  ( 1 /U_VCC )
+  ( 2 N-000015 )
+  ( 3 N-000014 )
+  ( 4 N-000014 )
+  ( 5 N-000006 )
+  ( 6 N-000005 )
+  ( 7 N-000007 )
+  ( 8 /U_GND )
+  ( 9 /D_GND )
+  ( 10 N-000011 )
+  ( 11 N-000013 )
+  ( 12 N-000008 )
+  ( 13 N-000009 )
+  ( 14 N-000023 )
+  ( 15 N-000022 )
+  ( 16 /D_VCC_IN )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

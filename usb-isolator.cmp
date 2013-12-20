@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sa 21 Dez 2013 00:18:28 CET
+
+BeginCmp
+TimeStamp = /5048F8D1;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048F2C8;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50490869;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50490D2D;
+Reference = C4;
+ValeurCmp = 4u7;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50490C58;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AAD4E;
+Reference = C6;
+ValeurCmp = 4u7;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AAC72;
+Reference = C7;
+ValeurCmp = ?;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52AF9A76;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048FA07;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = SOLDERSW_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50490803;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = SOLDERSW_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50490906;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SOLDERSW_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048F02A;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = FLATCONN_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /50492EAD;
+Reference = P4;
+ValeurCmp = CONN_9;
+IdModule  = USB-M2XFXX;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048F1D2;
+Reference = R1;
+ValeurCmp = 24;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048F286;
+Reference = R2;
+ValeurCmp = 24;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /504908DB;
+Reference = R3;
+ValeurCmp = 24;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /504908E1;
+Reference = R4;
+ValeurCmp = 24;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50492D1D;
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50492E5D;
+Reference = R6;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50492D7C;
+Reference = R7;
+ValeurCmp = 0;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AAC6B;
+Reference = R8;
+ValeurCmp = ?;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52AF9A6E;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5048EFEF;
+Reference = U1;
+ValeurCmp = ADUM4160;
+IdModule  = ADuM4160;
+EndCmp
+
+EndListe
